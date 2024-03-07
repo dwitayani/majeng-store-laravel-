@@ -1,0 +1,67 @@
+/* .custom-sidebar {
+    width: 200px;
+    position: fixed;
+    height: 100vh;
+    background-color: #ADBC9F; 
+    padding: 12px;
+}
+.nav-link:hover {
+    background-color: #436850; 
+    color: #fff; 
+  } */
+
+  #sidebar {
+    background-color: #A6BB8D;
+    padding: 12px;
+    width: 280px;
+    z-index: 1000; /* Ensure it's above other content */
+    overflow-y: auto; 
+    position: fixed;
+    padding: 24px;
+
+}
+#navbar{
+    background-color: #0000;
+    position: fixed;
+    z-index: 1000; /* Ensure it's above other content */
+    overflow-y: auto; 
+    
+
+}
+.nav-link{
+    color: #61876E;
+}
+.nav-link:hover {
+    background-color: #61876E; /* Ubah warna latar belakang saat hover */
+    color: #EAE7B1;
+    text-decoration: none; /* Hilangkan dekorasi teks saat hover */
+}   
+
+#main {
+    margin-left: 300px; /* Adjust this value according to your sidebar width */
+    padding-top: 20px;
+    padding-bottom: 60px; /* Adjust this value according to your navbar height */
+}
+
+.card-scale {
+    transition: transform 0.3s ease;
+}
+
+.card-scale:hover {
+    transform: scale(1.1);
+}
+
+#carouselExampleAutoplaying{
+    width: 800px; 
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#header{
+    height: 60px;
+    background-color: #3C6255;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
